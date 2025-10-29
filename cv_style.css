@@ -1,0 +1,135 @@
+/* style.css - updated with teal color theme and improved styling */
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #092035;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #092035;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+}
+
+h1, h2 {
+    color: #1AA090; /* Teal shade */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #b0bec5; /* Light gray */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #092035;
+    color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #1AA090;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1AA090;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1AA090; /* Darker teal shade */
+}
+
+.resume-container {
+    padding: 25px;
+    border: 1px solid #092035;
+    border-radius: 8px;
+    background: #092035;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.87);
+    margin: 20px auto;
+}
+
+.resume-header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1AA090;
+}
+
+.resume-header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #1AA090;
+}
+
+.resume-header p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #ffffff; /* Dark gray */
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 1.6em;
+    color: #1AA090;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b2dfdb;
+}
+
+.skills-list, .languages-list, .hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li, .languages-list li, .hobbies-list li {
+    padding: 8px 15px;
+    background-color: #1AA090;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.section p {
+    color: #455a64;
+    line-height: 1.6;
+    font-size: 1.05em;
+}
